@@ -10,6 +10,7 @@ import UIKit
 class ViewController: UIViewController {
     var firstString = "The background color will turn blue"
     var secondString = "The background color will turn green"
+    var coolString = "This is cool"
     
     
    
@@ -28,8 +29,12 @@ class ViewController: UIViewController {
             else
             {
                 self.view.backgroundColor = UIColor.blue
-        }
+                
+                
+            }
         
     }
+    
+    @IBOutlet weak var coolLabel: UILabel!
     
 }
