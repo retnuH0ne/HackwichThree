@@ -35,6 +35,18 @@ class ViewController: UIViewController {
         
     }
     
+    
+    
     @IBOutlet weak var coolLabel: UILabel!
+    {
+        if self.view.backgroundColor == UIColor.blue
+            {
+                self.coolLabel.text = coolString
+            }
+            else
+            {
+                self.coolLabel.text = " "
+            }
+    }
     
 }

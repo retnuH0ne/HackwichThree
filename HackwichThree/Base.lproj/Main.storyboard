@@ -25,8 +25,8 @@
                                     <action selector="changeColorButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cgy-ja-BPi"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vDK-21-fqE">
-                                <rect key="frame" x="175" y="322" width="0.0" height="0.0"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XO2-OP-n6L" userLabel="coolLabel">
+                                <rect key="frame" x="175" y="340" width="42" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -37,7 +37,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="coolLabel" destination="vDK-21-fqE" id="qYp-61-dTu"/>
+                        <outlet property="CoolLabel" destination="XO2-OP-n6L" id="6Dr-rs-fYi"/>
+                        <outlet property="coolLabe" destination="XO2-OP-n6L" id="TyS-y0-9xp"/>
+                        <outlet property="coolLabel" destination="XO2-OP-n6L" id="OHu-JN-XGn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
